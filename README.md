@@ -14,12 +14,12 @@ Open the gulp file and modify the following options:
 ```
 /
 /packages
-	/package1
-		/src
-		/dist
-	/package2
-		/src
-		/dist		
+    /package1
+        /src
+        /dist
+    /package2
+        /src
+        /dist
 ```
 
 BrowserSync will watch changes on the `dist` directory on every single package. If it's a CSS related change, it will only inject CSS (Even if other file types get compiled like when using Webpack).
