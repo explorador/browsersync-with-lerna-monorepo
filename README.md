@@ -10,6 +10,10 @@ Open the gulp file and modify the following options:
 * `files_to_watch`
 * `css_preprocessors`
 
+## Usage
+1. `npm install`
+2. `npm start`
+
 ## Directory structure ex:
 ```
 /
